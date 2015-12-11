@@ -24,8 +24,8 @@ def summary():
   raw_text = post.get('raw_text')
   algo_id = post.get('id')
 
-  summary = gensim.summarization.summarize(raw_text, word_count=50)
-
+  # summary = gensim.summarization.summarize(raw_text, word_count=50)
+  summary = raw_text
   f = {'summary': summary}
   return jsonify(**f)
 
