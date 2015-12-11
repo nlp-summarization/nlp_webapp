@@ -1,0 +1,7 @@
+[2015-12-10 21:33:13 -0500] [40316] [INFO] Starting gunicorn 19.4.1
+[2015-12-10 21:33:13 -0500] [40316] [INFO] Listening at: http://0.0.0.0:5000 (40316)
+[2015-12-10 21:33:13 -0500] [40316] [INFO] Using worker: sync
+[2015-12-10 21:33:13 -0500] [40319] [INFO] Booting worker with pid: 40319
+[2015-12-10 21:34:38 -0500] [40316] [INFO] Handling signal: term
+[2015-12-10 21:34:38 -0500] [40319] [INFO] Worker exiting (pid: 40319)
+[2015-12-10 21:34:38 -0500] [40316] [INFO] Shutting down: Master
