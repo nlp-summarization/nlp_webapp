@@ -1,7 +1,6 @@
 from app import app
 from flask import render_template, jsonify, request
-import gensim
-from gensim.summarization import summarize
+from summarizers import gensim_summarize, baseline_summary
 
 @app.route('/')
 @app.route('/index')
@@ -24,9 +23,7 @@ def summary():
   raw_text = post.get('raw_text')
   algo_id = post.get('id')
 
-  summary = gensim.summarization.summarize(raw_text, word_count=50)
-  
-  f = {'summary': summary}
+  f = {'summary': baseline_summary(raw_text)}
   return jsonify(**f)
 
 if __name__ == '__main__':

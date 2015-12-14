@@ -9,6 +9,7 @@ httpretty==0.8.6
 itsdangerous==0.24
 Jinja2==2.8
 MarkupSafe==0.23
+nltk==3.1
 numpy==1.10.1
 requests==2.8.1
 scipy==0.16.1
