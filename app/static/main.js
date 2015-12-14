@@ -7,27 +7,28 @@
   	$scope.$log = $log;
   	$scope.message = 'Hello World!';
   	$scope.summary = "Summary Not Generated";
-  	$scope.input_text =  "Thomas A. Anderson is a man living two lives. By day he is an \
-average computer programmer and by night a hacker known as \
-Neo. Neo has always questioned his reality, but the truth is \
-far beyond his imagination. Neo finds himself targeted by the \
-police when he is contacted by Morpheus, a legendary computer \
-hacker branded a terrorist by the government. Morpheus awakens \
-Neo to the real world, a ravaged wasteland where most of \
-humanity have been captured by a race of machines that live \
-off of the humans' body heat and electrochemical energy and \
-who imprison their minds within an artificial reality known as \
-the Matrix. As a rebel against the machines, Neo must return to \
-the Matrix and confront the agents: super-powerful computer \
-programs devoted to snuffing out Neo and the entire human \
-rebellion.";
+
+// 		$scope.input_text = "Mr Peake and fellow crew members Yuri Malenchenko and Tim Kopra floated through the hatch from their Soyuz space capsule to be greeted by the resident ISS astronauts. \
+// The three new passengers arrived at the space platform following a six-hour journey after launch from Kazakhstan. \
+// Earlier, the Russian commander had to steer the craft to dock with the ISS. \
+// It followed complications with the usual automatic docking procedure. \
+// It's a rare event for the Soyuz crew to have to manually dock the spacecraft at the space station. \
+// The Kurs radar system that failed is one of the two main ways controllers have of determining where the Soyuz is relative to the space station. \
+// The other is measurements taken from the ground. \
+// The immense skill required to manually dock the capsule in open space is exactly why Tim and the other crew members undergo such rigorous training for a range of different failure scenarios."
+
+  	$scope.input_text =  "Triceratops, one of the most widely recognizable of the dinosaurs that once roamed our planet, has a new cousin. \
+Known for its three-horned head and bony, frilly collar, the triceratops somewhat resembles the modern-day rhinoceros. \
+But not only is its new relative older -- by 100 million years -- it also looks dramatically different. \
+Discovered in the Gobi Desert in northwestern China, hualianceratops 'provides significant information on the early evolution of horned dinosaurs,' says paleontologist Xu Xing, who worked on the discovery announced Wednesday.";
   	
   	$scope.data = {
 	    repeatSelect: 1,
 	    availableOptions: [
-	      {id: '1', name: 'Naive Bayes'},
+	      {id: '1', name: 'Baseline'},
 	      {id: '2', name: 'Page Rank'},
-	      {id: '3', name: 'LSA'}
+	      {id: '3', name: 'LSA'},
+	      {id: '4', name: 'Lex Rank'}
 	    ],
 	   };
 
